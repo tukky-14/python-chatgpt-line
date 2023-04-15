@@ -2,7 +2,7 @@ import os
 import json
 import openai
 import personality
-from dynamoDBFunctions import get_message_history, put_message_history
+from dynamodb_functions import get_message_history, put_message_history
 from linebot import LineBotApi
 from linebot.models import TextSendMessage
 
