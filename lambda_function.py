@@ -30,7 +30,7 @@ def lambda_handler(event, context):
                 response = openai.ChatCompletion.create(
                     model = "gpt-3.5-turbo",
                     messages = messages,
-                    temperature = 0.0,
+                    temperature = 0.5,
                 )
                 res_content = response['choices'][0]['message']['content']
 
