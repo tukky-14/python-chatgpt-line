@@ -38,7 +38,7 @@ pip install open -t .
   - API Gateway で REST API を作成
   - リソースを作成
   - POST メソッドを作成し、上記で作成した Lambda 関数を設定
-  - API を公開
+  - CORS を有効化し、API を公開
 
 <br/>
 
@@ -46,7 +46,7 @@ pip install open -t .
 
 - Messaging API の作成
 - 「チャネルアクセストークン」を取得
-- Webhook の設定を有効にし、2.で公開した API エンドポイントを設定
+- Webhook の設定を有効にし、2.で公開した API エンドポイントを設定  
   ※[API エンドポイント + リソース名]で設定することに注意
 
 <br/>
